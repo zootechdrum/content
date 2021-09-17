@@ -192,13 +192,6 @@ tags:
   <p>As usual, Svelte provides us with a nice shorthand — <code>bind:value={value}</code> is equivalent to <code>bind:value</code>. So in the above example you could just write <code>&lt;FilterButton bind:filter /&gt;</code>.</p>
  </li>
  <li>
-  <p>The child component can now modify the value of the parent's filter variable, so we no longer need the <code>onclick</code> prop. Modify your <code>FilterButton</code> <code>&lt;script&gt;</code> like this:</p>
-
-  <pre class="brush: html">&lt;script&gt;
-  export let filter = 'all'
-&lt;/script&gt;</pre>
- </li>
- <li>
   <p>Try your app again, and you should still see your filters working correctly.</p>
  </li>
 </ol>
